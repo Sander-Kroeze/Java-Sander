@@ -1,6 +1,6 @@
-package Les8_gegevens;
-// haalt de class Datum op uit het pakket kalender
-import Les8_kalender.Datum;
+package Les6_H8_gegevens;
+
+import Les6_H8_kalender.Datum;
 
 public class Student {
 //	String zonder text
