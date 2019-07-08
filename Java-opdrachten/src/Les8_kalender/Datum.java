@@ -19,9 +19,11 @@ public class Datum {
 		this.jaar = jaar;
 	}
 	
-//	de mehtode 
-	public void myMethod() {
-//		hoe het weer wordt gegevens
+//	Methode 
+//	als we deze methode aan roepen, en dag, maand en jaar zijn ingevuld
+//	print hij dus de waarden uit zoals hier onder staat beschreven
+	public void datumFormaat() {
+//		hoe het weer wordt gegevens: dag-maand-jaar
 		System.out.println(dag + "-" + maand + "-" + jaar);
 	}
 //	test
