@@ -17,9 +17,7 @@ public class H7_Opdracht {
 //		verwijder dollar tekens
 		System.out.println("Verwijder $: " + sb.replace("$", ""));
 //		verwijder eerste 10
-		StringBuffer sb2 = new StringBuffer(sb);
-		sb2.replace(0, 10, "");
-		System.out.println("Verwijder eerste 10: " + sb2);
+		System.out.println("Verwijder eerste 10: " + sb.substring(10));
 //		quote uit de zin
 		System.out.println("Levert groot op: " + sb.substring(18, 23));
 //		index van het eerste dolar teken
@@ -29,8 +27,7 @@ public class H7_Opdracht {
 		int teken2 = sb.lastIndexOf("$");
 		System.out.println("Laatste $ symbool: " + teken2);
 //		vervangt brazilie door argentinie
-		StringBuffer sb3 = new StringBuffer(sb);
-		System.out.println(sb3.replace(0, 8, "Argentinië"));
+		System.out.println(sb.replace("brazilië", "Argentinië"));
 	}
 	
 	public static void main(String[] args) {
