@@ -2,15 +2,32 @@ package Les7_H11_opdracht;
 
 
 public class Voertuig {
+//	int = cijfer
+//	String = text
+//	protected = hier kunnen alle bestanden bij uit het zelfde package
+	protected String merk;
+	protected int bouwjaar;
+	protected String kleur;
 	
-	public static void main(String[] args) {
-//		nieuwe objecten Auto
-		Auto at1 = new Auto("Toyota", 2013, "Rood", 5);
-		Auto at2 = new Auto("Mazda", 2017, "Blauw", 8);
-//		nieuwe objecten Vrachtwagen
-		Vrachtwagen vw1 = new Vrachtwagen("BMW", 2016, "Groen", 6550.0);
-		Vrachtwagen vw2 = new Vrachtwagen("Volvo", 2014, "Zwart", 4000.0);
-		
-		
-	}
+//	functie om alle merken, bouwjaren en kleuren waardes toe te kennen
+	public Voertuig(String merk, int bouwjaar, String kleur)
+	  {
+//		geeft de variabelen waardes
+	    this.merk = merk;
+	    this.bouwjaar = bouwjaar;
+	    this.kleur = kleur;
+	  }
+	
+//	functie om alle merken, bouwjaren en kleuren weer te geven
+	public void print()
+	  {
+//		geeft de variabelen weer
+	    System.out.println("Merk:     " + merk);
+	    System.out.println("Bouwjaar: " + bouwjaar);
+	    System.out.println("Kleur:    " + kleur);
+	  }
+	
+//	het verschil is dat alles zat bij mij in functie, in die functie werden de waarden toegekend en werden deze ook weer gegeven
+//	bij u is dit verdeeld over 2 functies en de variabelen worden op andere plekken gemaakt, bij u worden de globale variabelen in voertuig gemaakt,
+//	en bij mij was dit in auto en in vrachtwagen, dus had ik eigenlijk dubbele variabelen.
 }
