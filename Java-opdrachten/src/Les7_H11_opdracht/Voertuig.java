@@ -26,7 +26,6 @@ public class Voertuig {
 	    System.out.println("Bouwjaar: " + bouwjaar);
 	    System.out.println("Kleur:    " + kleur);
 	  }
-	
 //	het verschil is dat alles zat bij mij in functie, in die functie werden de waarden toegekend en werden deze ook weer gegeven
 //	bij u is dit verdeeld over 2 functies en de variabelen worden op andere plekken gemaakt, bij u worden de globale variabelen in voertuig gemaakt,
 //	en bij mij was dit in auto en in vrachtwagen, dus had ik eigenlijk dubbele variabelen.
