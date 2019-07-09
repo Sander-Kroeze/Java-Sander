@@ -5,7 +5,6 @@ public class Vrachtwagen extends Voertuig {
 //	double = cijfers met 2 getallen achter de komma
 //	protected = hier kunnen alle bestanden bij uit het zelfde package
 	protected double lading;
-	
 //	functie om de variabelen waardes te geven
 	public Vrachtwagen(String merk, int bouwjaar, String kleur, double lading) {
 //		haalt de variabelen op van de class voertuig

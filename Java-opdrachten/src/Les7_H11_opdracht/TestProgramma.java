@@ -15,5 +15,6 @@ public class TestProgramma extends Voertuig {
 //		objecten roepen de print funcite van Vrachtwagen aan
 		vrw1.print();
 		vrw2.print();
+		
 	}
 }

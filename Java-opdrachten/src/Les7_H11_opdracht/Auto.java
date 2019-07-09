@@ -21,5 +21,4 @@ public class Auto extends Voertuig {
 //		geeft lading weer
 	    System.out.println("passagiers: " + passagiers);
 	}
-	
 }
